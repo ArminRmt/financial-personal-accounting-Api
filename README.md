@@ -7,12 +7,11 @@
 financial management and personal accounting  Api
 
 ## Features
-API
-CRUD
-Managing requests and responding to them
-Laravel Sanctum 
-Postman
-
+- **API**
+- **CRUD**
+- **Managing requests and responding to them**
+- **Laravel Sanctum**
+- **Postman**
 
 ## Postman
 in [here](https://web.postman.co)
