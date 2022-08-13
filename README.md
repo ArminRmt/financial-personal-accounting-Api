@@ -14,22 +14,30 @@ Postman
 
 
 ## Postman
+**add header -> Accept + application/json** 
+\
+\
+ recive categories :
+    http://127.0.0.1:8000/api/categories    method:get    
+    http://127.0.0.1:8000/api/categories/1  method:get
+    
+ store categories    
+    http://127.0.0.1:8000/api/categories    method:post,      fil name    
+    
+ update categories    
+    http://127.0.0.1:8000/api/categories/1  method:put,       fil attributes
 
-// recive categories :
-    http://127.0.0.1:8000/api/categories    get      200 ok
-    http://127.0.0.1:8000/api/categories/1  get
-// store categories    
-    http://127.0.0.1:8000/api/categories     post   fil name       201 created
-// update categories    
-    http://127.0.0.1:8000/api/categories/1     put   fil attributes
-// delete  categories    
-    http://127.0.0.1:8000/api/categories/1     delete           204 no content
-// auth  login    
-    http://127.0.0.1:8000/api/auth/login     post   fil user attributes    
-// auth  register    
-    http://127.0.0.1:8000/api/auth/register     post   fil user attributes
-// auth  logout     
-    http://127.0.0.1:8000/api/auth/logout     post   fil user attributes
+ delete  categories    
+    http://127.0.0.1:8000/api/categories/1  method:delete     
+    
+ auth  login    
+    http://127.0.0.1:8000/api/auth/login    method:post,      fil user attributes  
+    
+ auth  register    
+    http://127.0.0.1:8000/api/auth/register method:post,      fil user attributes
+    
+ auth  logout     
+    http://127.0.0.1:8000/api/auth/logout   method:post,      fil user attributes
 
 
 
