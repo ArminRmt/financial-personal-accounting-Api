@@ -1,6 +1,7 @@
 ## Screenshots
-wegwer
 
+<img src="https://github.com/ArminRmt/FlutterApi-laravel/blob/master/postman.png" width=98% height=450 alt="">
+<br>
 
 ## Description
 financial management and personal accounting  Api
@@ -14,6 +15,10 @@ Postman
 
 
 ## Postman
+in [here](https://web.postman.co)
+make sure to install Desktop Agant and run it
+\
+\
 **add header -> Accept + application/json** 
 \
 \
@@ -44,14 +49,12 @@ Postman
  
 
 ## Installation:
-
 	download file
+    cd to project folder
+    composer update
 	composer install
-	npm install
-	npm run dev
 	cp .env.example .env            
-	customize with our database   env file  ->  DB_DATABASE = name
-	localhost/phpmyadmin   crate database(name)
+	create with your database   env file  ->  DB_DATABASE = name
 	php artisan key:generate    -> APP_KEY
 	php artisan migrate
 	php artisan serve
