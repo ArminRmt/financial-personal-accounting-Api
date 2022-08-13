@@ -1,6 +1,6 @@
 ## Screenshots
 
-<img src="https://github.com/ArminRmt/FlutterApi-laravel/blob/master/postman.png" width=98% height=450 alt="">
+<img src="https://github.com/ArminRmt/FlutterApi-laravel/blob/master/postman.png" width=100% height=450 alt="">
 <br>
 
 ## Description
