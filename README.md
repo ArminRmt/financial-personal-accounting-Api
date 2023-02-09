@@ -29,7 +29,7 @@ make sure to install Desktop Agant and run it
     http://127.0.0.1:8000/api/categories    method:post,      fil name    
     
  update categories    
-    http://127.0.0.1:8000/api/categories/1  method:put,       fil attributes
+    http://127.0.0.1:8000/api/categories/1  method:put,       fil (name with better token)
 
  delete  categories    
     http://127.0.0.1:8000/api/categories/1  method:delete     
