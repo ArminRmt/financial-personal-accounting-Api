@@ -38,10 +38,10 @@ make sure to install Desktop Agant and run it
     http://127.0.0.1:8000/api/auth/login    method:post,      fil user attributes  
     
  auth  register    
-    http://127.0.0.1:8000/api/auth/register method:post,      fil user attributes
+    http://127.0.0.1:8000/api/auth/register method:post,      fil (name-email-device_name-password-password_confirmation)
     
  auth  logout     
-    http://127.0.0.1:8000/api/auth/logout   method:post,      fil user attributes
+    http://127.0.0.1:8000/api/auth/logout   method:post,      fil (email)
 
 
 
