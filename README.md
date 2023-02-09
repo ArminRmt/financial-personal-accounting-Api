@@ -35,7 +35,7 @@ make sure to install Desktop Agant and run it
     http://127.0.0.1:8000/api/categories/1  method:delete     
     
  auth  login    
-    http://127.0.0.1:8000/api/auth/login    method:post,      fil user attributes  
+    http://127.0.0.1:8000/api/auth/login    method:post,      fil (email-device_name-password)
     
  auth  register    
     http://127.0.0.1:8000/api/auth/register method:post,      fil (name-email-device_name-password-password_confirmation)
